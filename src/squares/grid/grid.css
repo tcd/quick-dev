@@ -1,0 +1,10 @@
+.item-container {
+    width: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.item-container .item {
+    aspect-ratio: 1 / 1 ;
+}
+

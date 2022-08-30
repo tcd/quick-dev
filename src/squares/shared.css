@@ -47,32 +47,3 @@ html, body, #container {
     width: 50%;
     background-color: antiquewhite;
 }
-
-/* -------------------------------------------------------------------------- */
-/* Flex */
-/* -------------------------------------------------------------------------- */
-
-.item-container.flex {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.item-container.flex .item {
-    width: 75px;
-    height: 75px;
-}
-
-/* -------------------------------------------------------------------------- */
-/* Grid */
-/* -------------------------------------------------------------------------- */
-
-.item-container.grid {
-    width: 200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-.item-container.grid .item {
-    aspect-ratio: 1 / 1 ;
-}
-

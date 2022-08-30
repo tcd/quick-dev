@@ -1,0 +1,9 @@
+.item-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.item-container .item {
+    width: 75px;
+    height: 75px;
+}
