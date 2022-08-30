@@ -1,14 +1,14 @@
 {
-  "name": "quick-dev",
-  "version": "1.0.0",
-  "description": "Template for quick front end prototyping.",
-  "scripts": {
-    "start": "cross-env live-server ./src/example"
-  },
-  "author": "Clay Dunston <dunstontc@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "cross-env": "^7.0.3",
-    "live-server": "^1.2.2"
-  }
+    "name": "quick-dev",
+    "version": "1.0.0",
+    "description": "Template for quick front end prototyping.",
+    "scripts": {
+        "start": "cross-env live-server ./src/example"
+    },
+    "author": "Clay Dunston <dunstontc@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "cross-env": "^7.0.3",
+        "live-server": "^1.2.2"
+    }
 }
