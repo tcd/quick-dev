@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Template for quick front end prototyping.",
     "scripts": {
-        "start": "cross-env live-server ./src/example"
+        "start": "cross-env live-server ./src/squares"
     },
     "author": "Clay Dunston <dunstontc@gmail.com>",
     "license": "MIT",

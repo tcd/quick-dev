@@ -1,0 +1,78 @@
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #container {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: papayawhip;
+}
+
+#container {
+    background-color: slategray;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/* ========================================================================== */
+/* Item */
+/* ========================================================================== */
+
+.item {
+    color: white;
+    text-align: center;
+}
+
+.item:nth-child(odd) {
+    background-color: rebeccapurple;
+}
+.item:nth-child(even) {
+    background-color: teal;
+}
+
+.item.empty {
+    color: black;
+    background-color: antiquewhite;
+}
+
+/* ========================================================================== */
+/* Item Container */
+/* ========================================================================== */
+
+.item-container {
+    width: 50%;
+    background-color: antiquewhite;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Flex */
+/* -------------------------------------------------------------------------- */
+
+.item-container.flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.item-container.flex .item {
+    width: 75px;
+    height: 75px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Grid */
+/* -------------------------------------------------------------------------- */
+
+.item-container.grid {
+    width: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.item-container.grid .item {
+    aspect-ratio: 1 / 1 ;
+}
+
